@@ -1,0 +1,91 @@
+.pill-nav a {
+  display: inline-block;
+  margin-left: 1%;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+
+}
+
+.pill-nav a.active {
+  background-color: purple;
+  color: white;
+}
+
+.container1 {
+  position: relative;
+  font-family: Arial;
+  padding-right: 10px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.53);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 100px;
+  background-color: purple;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 30px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px;
+  float: right;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: black;
+}
+
+.button1:hover span {
+  padding-right: 55px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: purple;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 18px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px;
+  float: right;
+}
+

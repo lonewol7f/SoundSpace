@@ -1,0 +1,41 @@
+.butt1{
+  display: inline-block;
+  border-radius: 60px;
+  background-color:#9710AB ;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  background:#9710AB;
+ /* margin: 4px;*/
+  
+}
+
+.butt1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.errormsg{
+  border: 1px solid rgb(250, 58, 58);
+  background-color: rgba(248, 62, 62, 0.61);
+  color: rgb(255, 0, 0);
+  border-radius: 5px;
+  margin-top: 5px;
+  position: relative;
+  padding: 5px 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+.errormsg li{
+  display: inline-block;
+}

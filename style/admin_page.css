@@ -1,0 +1,145 @@
+.mySlides {
+  display:none;
+}
+
+.Font{
+  
+font-family: 'Trebuchet MS';
+}
+
+.side {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left : 0;
+  background-color:#A9A9A9 ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.side a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.side a:hover {
+  color: #f1f1f1;
+}
+
+
+
+.side .CloseButton {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .side {padding-top: 15px;}
+  .side a {font-size: 18px;}
+}
+
+
+.para2{
+  float: right; margin-top: 25px; margin-right: 5px;  font-size: 20px;
+}
+
+.para1{
+  float: right; margin-top: 5px; margin-right: 5px; font-size: 40px;
+  
+  }
+ 
+
+  .good {
+    color: #00BFFF;
+  }
+ 
+ .normal{
+  color: #F4A460;
+ }
+
+ .bad{
+  color: #DB7093;
+ }
+.dis{
+  color: black;
+}
+.button{
+  background-color: #7B68EE; 
+  border: 1px solid #9370DB;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 7%;
+}
+
+.imchange input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.imchange input[type=submit] {
+  width: 100%;
+  background-color: #B0C4DE;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.butgrp{
+  margin-left: 55px;
+}
+
+.butgrp .button2 {
+  background-color: #7B68EE;
+  border: 1px solid #9370DB;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 300px;
+  display: block;
+}
+
+
+.butgrp .button2:hover {
+  background-color: #9370DB;
+}
+
+ .tbl2 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  }
+  
+  .tbl2 td{
+  border: 2px solid #ddd;
+  padding: 12px;
+  background-color: #B0C4DE;
+  }
+
+  #visitor{
+    margin-left: 7%;
+  }

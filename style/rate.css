@@ -1,0 +1,104 @@
+
+.frame0{
+width: 650px;
+height: 740px;
+padding: 20px;
+border: 5px solid black;
+margin: 0;
+}
+
+.frame01{
+width: 600px; 
+height: 310px; 
+padding: 20px; 
+border: 5px solid black; 
+margin: 0;
+}
+
+.frame02{ 
+    float:right;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.mySlides {
+  display:none;
+}
+
+.Font{
+  
+font-family: 'Trebuchet MS';
+}
+
+.side {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left : 0;
+  background-color:#A9A9A9 ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.side a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.side a:hover {
+  color: #f1f1f1;
+}
+
+
+
+.side .CloseButton {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .side {padding-top: 15px;}
+  .side a {font-size: 18px;}
+}
+
+.rating{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.rating li{
+  list-style-type: none
+}
+
+.rating-item{
+  cursor: pointer;
+  font-size: 2em;
+  color: #FFD700;
+}
+
+.rating-item::before{
+  content: "\2605";
+}
+
+.rating-item.active ~ .rating-item::before{
+  content: "\2606";
+}
+
+.rating:hover .rating-item::before{
+  content: "\2605";
+}
+
+.rating-item:hover ~ .rating-item::before{
+  content: "\2606";
+}
