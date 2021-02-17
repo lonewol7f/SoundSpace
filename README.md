@@ -7,5 +7,5 @@
 
 * [Imasha Kuruppu](https://github.com/ImashaKuruppu25)
 * [Kalana Wickramaarachchi](https://github.com/lonewol7f)
-* Oshan Wijewardena
+* [Oshan Wijewardena](https://github.com/OshanWijewardena)
 * Lahiru Chandula
