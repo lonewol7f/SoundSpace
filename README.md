@@ -1,5 +1,9 @@
 ## SoundSpace
 
+<p align="center">
+  <img align="center" alt="Screenshot Soundspace-Home" src="shorturl.at/vxHW3" />
+</p>
+
 - SoundSpace is a PHP bases website created for a first year group project
 - Download images, audio and video files from [here](https://bit.ly/3pvbDyC)
 
