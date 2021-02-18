@@ -1,7 +1,7 @@
 ## SoundSpace
 
 <p align="center">
-  <img align="center" alt="Screenshot Soundspace-Home" src="https://bit.ly/2ZqzvZC" />
+  <img align="center" alt="Screenshot Soundspace-Home" src="resourses/screenshot_home.png" />
 </p>
 
 <br>
